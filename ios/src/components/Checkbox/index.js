@@ -1,0 +1,16 @@
+import { Image, TouchableOpacity, View } from "react-native";
+import { styles } from "./styles";
+
+const Checkbox = ({checked, oncCheck}) => {
+    return(
+        <TouchableOpacity activeOpacity={0.6} style={styles.container} onPress={() => oncCheck(!checked)}>
+            { checked ? (
+                <View style={styles.innerContainer}>
+                    <Image style={styles.checkIcon} source={require('../../assets/Check.png')} />
+                </View>
+            ) : null }
+        </TouchableOpacity>
+    )
+}
+
+export default Checkbox
