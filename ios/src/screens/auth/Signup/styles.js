@@ -21,5 +21,14 @@ export const styles = StyleSheet.create ({
     },
     agreeTextBold: {
         fontWeight: "bold"
-    } 
+    },
+    footerText: {
+        color: colors.blue,
+        marginBottom: 1,
+        textAlign: "center"
+    },
+    footerLink: {
+        fontWeight: "bold"
+    }
+    
 })

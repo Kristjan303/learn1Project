@@ -1,20 +1,20 @@
 import { StyleSheet } from "react-native";
 import { colors } from "../../utils/colors";
 
-export const styles = StyleSheet.create ({
+export const styles = StyleSheet.create({
     container: {
         flexDirection: "row",
         alignItems: "center",
-        marginBottom: 30
+        marginVertical: 10
     },
-    image: {
-        width: 18,
-        height: 18
-    },
-    title: {
+    text: {
         color: colors.blue,
-        fontSize: 26,
         fontWeight: "500",
-        paddingHorizontal: 16
+    },
+    line: {
+        backgroundColor: colors.lightGray,
+        height: 1,
+        flex: 1,
+        marginVertical: 8
     }
 })

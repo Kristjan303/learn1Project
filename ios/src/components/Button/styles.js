@@ -7,7 +7,8 @@ export const styles = StyleSheet.create({
         paddingVertical: 20,
         paddingHorizontal: 8,
         width: "100%",
-        borderRadius: 10
+        borderRadius: 10,
+        marginVertical: 10
     },
     title: {
         color: colors.white,
