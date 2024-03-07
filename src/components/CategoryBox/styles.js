@@ -6,10 +6,11 @@ export const styles = StyleSheet.create ({
         marginHorizontal: "8",
         flexDirection: "column",
         justifyContent: "center",
-        alignItems: "center"
+        alignItems: "center",
     },
     title: {
-        color: colors.grey
+        color: colors.grey,
+        
     },
     image: {
         width: 32,
@@ -19,6 +20,7 @@ export const styles = StyleSheet.create ({
         backgroundColor: colors.lightGray,
         padding: 8,
         borderRadius: 8,
+        marginHorizontal: 10,
         marginBottom: 8
     }
 })
