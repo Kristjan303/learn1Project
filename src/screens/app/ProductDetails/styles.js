@@ -28,6 +28,9 @@ export const styles = StyleSheet.create({
         padding: 24,
         flexDirection: 'row',
         alignItems: 'center',
+        marginRight: 75,
+        justifyContent: 'space-between',
+        flex: 1,
     },
     save: {
         flex: 1
